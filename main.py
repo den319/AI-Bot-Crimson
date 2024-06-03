@@ -37,7 +37,7 @@ def main():
         print("Welcome to your Crimson AI | Type 'exit' to end the session. \n")
         question = input("Enter your Query: \n")
         if question.lower() == 'exit':
-            print("See you next time Crimson! \n")
+            print("Good bye. See you next time Crimson! \n")
             break
         answer = getAnswer(question)
         print(f"Crimson Bot: \n {answer}")
